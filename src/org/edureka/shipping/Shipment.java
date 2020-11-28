@@ -12,6 +12,7 @@ public class Shipment {
 	Date deliveryDate;
 	int trackigNumber;
 	int chargeAmount;
+	int bill;
 
 	public int getResourceId() {
 		return resourceId;
@@ -95,7 +96,11 @@ public class Shipment {
 	static class Order {
 		int resourceId;
 	}
-	
+	public int getbill()
+	{
+		return bill;
+	}
 	//commiting this java file
+	
 
 }
